@@ -23,6 +23,7 @@ export class EditjogoComponent implements OnInit {
     })
   }
 
+  //hello word
   ngOnInit() {
     this.jogoEditar$ = this.jogosService.jogoEditar$.subscribe((jogo: any) => {// verifica quando troca o valor do observable
       this.id = jogo.id;
