@@ -1,0 +1,28 @@
+<h2>Informações do jogo</h2>
+
+<div>
+    <form [formGroup]="formulario">
+        <div class="form-group">
+            <label for="inputnome">Nome do jogo:</label>
+            <input type="text" class="form-control" formControlName="nome" placeholder="Nome do jogo">
+        </div>
+        <div class="form-group">
+            <label for="link">Link da imagem do jogo:</label>
+            <input type="text" class="form-control" formControlName="imagem" placeholder="Link da imagem do jogo">
+        </div>
+        <div class="form-group">
+            <label for="Descricao">Descrição:</label>
+            <input type="text" class="form-control" formControlName="descricao" placeholder="Descrição">
+        </div>
+        <div class="form-group">
+            <label for="Generos">Gênero:</label>
+            <input type="text" class="form-control" formControlName="genero" placeholder="Gênero">
+        </div>
+        <div class="form-group">
+            <label for="AnoLancamento">Ano de lançamento:</label>
+            <input type="text" class="form-control" formControlName="ano_lancamento" placeholder="Ano de lançamento">
+        </div>
+    </form>
+
+    <button class="btn btn-success" (click)="salvar()">Salvar</button>
+</div>

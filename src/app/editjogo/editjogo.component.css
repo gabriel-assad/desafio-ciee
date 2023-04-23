@@ -1,0 +1,18 @@
+h2{
+    
+    background-color: #7CC7FF;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid;
+    margin: 0;
+    padding: 15px;
+}
+.form-group{
+    background-color: #7CC7FF;
+    justify-content: center;
+    border: 3px solid;
+    padding: 20px;
+}
+label {
+    background-color: #7CC7FF;
+}

@@ -1,0 +1,8 @@
+<p>{{jogoRecebido.nome}}</p>
+<img width=300 [src]="jogoRecebido.imagem">
+<p>{{jogoRecebido.descricao}}</p>
+<p>{{jogoRecebido.genero}}</p>
+<p>{{jogoRecebido.ano_lancamento}}</p>
+<button class="btn btn-primary" (click)="editar(jogoRecebido)" >Editar</button>
+<button class="btn btn-danger" (click)="deletar(jogoRecebido.id)">Excluir</button>
+

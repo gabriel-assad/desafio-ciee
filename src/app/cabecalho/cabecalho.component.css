@@ -1,0 +1,11 @@
+
+header {
+    display: flex;
+    background-color: rgb(61, 134, 230);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 12vh;
+    border: 3px solid black;
+}
+

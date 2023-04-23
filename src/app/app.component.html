@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <app-cabecalho></app-cabecalho>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-6">
+      <div class="col-esquerda">
+        <app-listajogos (editarEvent)="editar($event)"></app-listajogos>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="col-direita">
+        <app-editjogo></app-editjogo>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
